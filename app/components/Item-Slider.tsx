@@ -1,5 +1,5 @@
 "use client";
-import React, { useRef, useState } from "react";
+import React from "react";
 // Import Swiper React components
 import { Swiper, SwiperSlide } from "swiper/react";
 
@@ -26,11 +26,11 @@ export default function ItemSlider() {
           <SwiperSlide>
             <div className="h-[355px] w-[200px]">
               <ImageCard
-                image={"/item-1.webp"}
+                image={"/item-2.jpg"}
                 discount={"20%"}
                 title={"Fire-Boltt Ninja Call Pro Max"}
-                rate={120}
-                deleteRate={160}
+                price={120}
+                deletePrice={160}
                 rating={88}
               />
             </div>
@@ -41,8 +41,8 @@ export default function ItemSlider() {
                 image={"/item-2.jpg"}
                 discount={"40%"}
                 title={"Fire-Boltt Ninja Call Pro Max"}
-                rate={120}
-                deleteRate={160}
+                price={320}
+                deletePrice={360}
                 rating={88}
               />
             </div>
@@ -51,10 +51,10 @@ export default function ItemSlider() {
             <div className="h-[355px] w-[200px]">
               <ImageCard
                 image={"/item-2.jpg"}
-                discount={"40%"}
+                discount={"30%"}
                 title={"Fire-Boltt Ninja Call Pro Max"}
-                rate={120}
-                deleteRate={160}
+                price={1020}
+                deletePrice={1060}
                 rating={88}
               />
             </div>
@@ -89,7 +89,7 @@ export default function ItemSlider() {
           <div className="h-[355px] w-[200px]">
               <ImageCard
                 image={"/item-5.jpg"}
-                discount={"17%"}
+                discount={"12%"}
                 title={
                   "Mixer Grinder With 4 Jars (3 Stainless Steel Jars+ 1 Juicer Jar)"
                 }
@@ -117,7 +117,7 @@ export default function ItemSlider() {
           <div className="h-[355px] w-[200px]">
               <ImageCard
                 image={"/item-5.jpg"}
-                discount={"17%"}
+                discount={"5%"}
                 title={
                   "Mixer Grinder With 4 Jars (3 Stainless Steel Jars+ 1 Juicer Jar)"
                 }
@@ -145,7 +145,7 @@ export default function ItemSlider() {
           <div className="h-[355px] w-[200px]">
               <ImageCard
                 image={"/item-5.jpg"}
-                discount={"17%"}
+                discount={"27%"}
                 title={
                   "Mixer Grinder With 4 Jars (3 Stainless Steel Jars+ 1 Juicer Jar)"
                 }
